@@ -1,0 +1,359 @@
+.gengame-container1 {
+  color: var(--dl-color-primary-main);
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dl-color-primary-background);
+}
+.gengame-header {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: var(--dl-color-primary-background);
+}
+.gengame-container2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.gengame-nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.gengame-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.gengame-link1 {
+  color: var(--dl-color-primary-background);
+  transition: 0.3s;
+  border-color: var(--dl-color-primary-main);
+  text-decoration: none;
+  background-color: var(--dl-color-primary-main);
+}
+
+.gengame-hero {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-primary-background);
+}
+.gengame-container3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.gengame-text10 {
+  font-size: 3rem;
+}
+.gengame-text11 {
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  padding-left: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-threeunits);
+}
+.gengame-image1 {
+  width: 72%;
+  margin-top: var(--dl-space-space-twounits);
+}
+.gengame-image2 {
+  width: 72%;
+  margin-top: var(--dl-space-space-threeunits);
+  object-fit: cover;
+}
+.gengame-text12 {
+  width: 45rem;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 500;
+  padding-top: var(--dl-space-space-twounits);
+}
+.gengame-ul {
+  flex: 1;
+  width: 45rem;
+}
+.gengame-li1 {
+  list-style: circle;
+  font-family: Poppins;
+  padding-top: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.gengame-li2 {
+  list-style: circle;
+  font-family: Poppins;
+  padding-top: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.gengame-li3 {
+  list-style: circle;
+  font-family: Poppins;
+  padding-top: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.gengame-li4 {
+  list-style: circle;
+  font-family: Poppins;
+  padding-top: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.gengame-li5 {
+  list-style: circle;
+  font-family: Poppins;
+  padding-top: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.gengame-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.gengame-image3 {
+  width: 48%;
+  object-fit: cover;
+}
+.gengame-image4 {
+  width: 48%;
+  object-fit: cover;
+}
+.gengame-banner {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.gengame-text26 {
+  width: 45rem;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.gengame-link2 {
+  color: var(--dl-color-primary-main);
+  text-align: center;
+  transition: 0.3s;
+  font-weight: 700;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-primary-main);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.gengame-link2:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-primary-main);
+}
+.gengame-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.gengame-icon-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.gengame-link3 {
+  display: contents;
+}
+.gengame-icon1 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: 0px;
+  text-decoration: none;
+}
+@media(max-width: 1600px) {
+  .gengame-nav {
+    padding-left: 0px;
+  }
+  .gengame-text10 {
+    font-size: 3rem;
+  }
+  .gengame-text12 {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 500;
+  }
+  .gengame-container4 {
+    width: 637px;
+    height: 686px;
+  }
+  .gengame-text26 {
+    font-family: Poppins;
+    font-weight: 600;
+  }
+  .gengame-icon1 {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+    margin-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 1200px) {
+  .gengame-text10 {
+    font-size: 3rem;
+  }
+  .gengame-text11 {
+    font-family: Poppins;
+  }
+  .gengame-image1 {
+    width: 80%;
+  }
+  .gengame-image2 {
+    width: 80%;
+  }
+}
+@media(max-width: 991px) {
+  .gengame-hero {
+    flex-direction: column;
+  }
+  .gengame-container3 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .gengame-text10 {
+    text-align: center;
+  }
+  .gengame-text11 {
+    text-align: center;
+  }
+  .gengame-image1 {
+    width: 80%;
+  }
+  .gengame-image2 {
+    width: 80%;
+  }
+  .gengame-text26 {
+    text-align: center;
+  }
+  .gengame-icon1 {
+    fill: var(--dl-color-primary-main);
+    margin-right: 0px;
+  }
+}
+@media(max-width: 767px) {
+  .gengame-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .gengame-nav {
+    display: none;
+  }
+  .gengame-btn-group {
+    display: none;
+  }
+  .gengame-hero {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .gengame-text11 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .gengame-image2 {
+    width: 80%;
+  }
+  .gengame-banner {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .gengame-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .gengame-text27 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .gengame-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .gengame-hero {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .gengame-container3 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .gengame-image1 {
+    width: 100%;
+  }
+  .gengame-image2 {
+    width: 100%;
+  }
+  .gengame-text12 {
+    width: 100%;
+    font-style: inherit;
+    font-family: Poppins;
+    font-weight: 500;
+  }
+  .gengame-ul {
+    width: 100%;
+  }
+  .gengame-container4 {
+    width: 432px;
+    height: 465px;
+  }
+  .gengame-banner {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .gengame-text26 {
+    width: 100%;
+  }
+  .gengame-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .gengame-text27 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .gengame-icon-group {
+    padding: 2rem 0;
+    padding-left: 2rem 0;
+  }
+  .gengame-icon1 {
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+}

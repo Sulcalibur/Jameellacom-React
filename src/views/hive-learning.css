@@ -1,0 +1,381 @@
+.hive-learning-container1 {
+  color: var(--dl-color-primary-main);
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dl-color-primary-background);
+}
+.hive-learning-header {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.hive-learning-container2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.hive-learning-nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.hive-learning-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hive-learning-link1 {
+  color: var(--dl-color-primary-main);
+  transition: 0.3s;
+  font-weight: 700;
+  border-color: var(--dl-color-primary-main);
+  text-decoration: none;
+  background-color: var(--dl-color-primary-background);
+}
+.hive-learning-link1:hover {
+  color: #FFF;
+  background-color: var(--dl-color-primary-main);
+}
+.hive-learning-hero {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.hive-learning-container3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.hive-learning-text10 {
+  font-size: 3rem;
+}
+.hive-learning-text11 {
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  padding-left: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-threeunits);
+}
+.hive-learning-image1 {
+  width: 72%;
+  margin-top: var(--dl-space-space-twounits);
+}
+.hive-learning-text14 {
+  width: 45rem;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 500;
+  padding-top: var(--dl-space-space-twounits);
+}
+.hive-learning-ul {
+  flex: 1;
+  width: 45rem;
+}
+.hive-learning-li1 {
+  list-style: circle;
+  font-family: Poppins;
+  padding-top: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.hive-learning-li2 {
+  list-style: circle;
+  font-family: Poppins;
+  padding-top: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.hive-learning-li3 {
+  list-style: circle;
+  font-family: Poppins;
+  padding-top: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.hive-learning-li4 {
+  list-style: circle;
+  font-family: Poppins;
+  padding-top: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.hive-learning-li5 {
+  list-style: circle;
+  font-family: Poppins;
+  padding-top: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.hive-learning-li6 {
+  list-style: circle;
+  font-family: Poppins;
+  padding-top: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.hive-learning-container4 {
+  flex: 0 0 auto;
+  width: 763px;
+  height: 522px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.hive-learning-image2 {
+  width: 48%;
+  object-fit: cover;
+}
+.hive-learning-image3 {
+  width: 48%;
+  object-fit: cover;
+}
+.hive-learning-banner {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hive-learning-image4 {
+  width: 772px;
+  height: 475px;
+  object-fit: cover;
+}
+.hive-learning-image5 {
+  width: 772px;
+  height: 453px;
+  margin-top: var(--dl-space-space-threeunits);
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.hive-learning-text29 {
+  width: 45rem;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.hive-learning-text30 {
+  font-family: Poppins;
+}
+.hive-learning-button {
+  color: var(--dl-color-primary-main);
+  text-align: center;
+  transition: 0.3s;
+  font-weight: 700;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-primary-main);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.hive-learning-button:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-primary-main);
+}
+.hive-learning-navlink {
+  display: contents;
+}
+.hive-learning-component2 {
+  text-decoration: none;
+}
+.hive-learning-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.hive-learning-icon-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hive-learning-link2 {
+  display: contents;
+}
+.hive-learning-icon1 {
+  fill: var(--dl-color-primary-main);
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: 0px;
+  text-decoration: none;
+}
+@media(max-width: 1600px) {
+  .hive-learning-nav {
+    padding-left: 0px;
+  }
+  .hive-learning-banner {
+    padding-right: ThreeUnits;
+  }
+  .hive-learning-icon1 {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+    margin-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 1200px) {
+  .hive-learning-text10 {
+    font-family: Poppins;
+  }
+  .hive-learning-text11 {
+    font-family: Poppins;
+  }
+  .hive-learning-image1 {
+    width: 80%;
+  }
+}
+@media(max-width: 991px) {
+  .hive-learning-hero {
+    flex-direction: column;
+  }
+  .hive-learning-container3 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .hive-learning-text10 {
+    text-align: center;
+  }
+  .hive-learning-text11 {
+    text-align: center;
+  }
+  .hive-learning-image1 {
+    width: 80%;
+  }
+  .hive-learning-text29 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .hive-learning-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .hive-learning-nav {
+    display: none;
+  }
+  .hive-learning-btn-group {
+    display: none;
+  }
+  .hive-learning-hero {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .hive-learning-text11 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .hive-learning-container4 {
+    width: 100%;
+  }
+  .hive-learning-banner {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .hive-learning-image4 {
+    width: 100%;
+  }
+  .hive-learning-image5 {
+    width: 100%;
+  }
+  .hive-learning-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .hive-learning-text32 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .hive-learning-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .hive-learning-hero {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .hive-learning-container3 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .hive-learning-image1 {
+    width: 100%;
+  }
+  .hive-learning-text14 {
+    width: 100%;
+    font-style: inherit;
+    font-family: Poppins;
+    font-weight: 500;
+  }
+  .hive-learning-ul {
+    width: 100%;
+  }
+  .hive-learning-container4 {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  .hive-learning-image2 {
+    width: 100%;
+  }
+  .hive-learning-image3 {
+    width: 100%;
+    margin-top: var(--dl-space-space-threeunits);
+  }
+  .hive-learning-banner {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .hive-learning-image4 {
+    width: 100%;
+    height: 100%;
+  }
+  .hive-learning-image5 {
+    width: 100%;
+    height: 100%;
+  }
+  .hive-learning-text29 {
+    width: 100%;
+  }
+  .hive-learning-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .hive-learning-text32 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .hive-learning-icon-group {
+    padding: 2rem 0;
+    padding-left: 2rem 0;
+  }
+  .hive-learning-icon1 {
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+    margin-right: 0px;
+  }
+}

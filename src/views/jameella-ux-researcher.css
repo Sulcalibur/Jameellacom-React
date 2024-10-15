@@ -1,0 +1,369 @@
+.jameella-ux-researcher-container1 {
+  color: var(--dl-color-primary-main);
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffedff;
+}
+.jameella-ux-researcher-hero {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  min-height: auto;
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: row;
+  padding-bottom: 154px;
+  justify-content: space-between;
+}
+.jameella-ux-researcher-image1 {
+  width: 25rem;
+  object-fit: cover;
+}
+.jameella-ux-researcher-container2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.jameella-ux-researcher-container3 {
+  display: flex;
+  margin-left: var(--dl-space-space-twounits);
+  flex-direction: column;
+}
+.jameella-ux-researcher-text10 {
+  color: var(--dl-color-primary-main);
+  font-size: 5rem;
+  font-family: Pacifico;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.jameella-ux-researcher-text13 {
+  font-size: 3rem;
+  margin-top: var(--dl-space-space-unit);
+  font-family: Poppins;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.jameella-ux-researcher-image2 {
+  width: 25rem;
+  display: none;
+  box-shadow: -10px 10px 0px 0px rgba(89, 36, 144, 0.2);
+  object-fit: cover;
+}
+.jameella-ux-researcher-btn-group {
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.jameella-ux-researcher-link1 {
+  color: var(--dl-color-gray-white);
+  transition: 0.3s;
+  font-weight: 700;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-primary-main);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-primary-main);
+}
+.jameella-ux-researcher-link1:hover {
+  transform: scale(1.02);
+  background-color: #472aa4;
+}
+.jameella-ux-researcher-link2 {
+  color: var(--dl-color-primary-main);
+  transition: 0.3s;
+  font-weight: 700;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-primary-main);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.jameella-ux-researcher-link2:hover {
+  color: #FFF;
+  transform: scale(1.02);
+  background-color: var(--dl-color-primary-main);
+}
+.jameella-ux-researcher-text14 {
+  margin-top: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-threeunits);
+}
+.jameella-ux-researcher-text15 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+.jameella-ux-researcher-text19 {
+  font-size: 18px;
+}
+.jameella-ux-researcher-text23 {
+  color: var(--dl-color-primary-main);
+  font-size: 3rem;
+  font-family: Poppins;
+}
+.jameella-ux-researcher-gallery {
+  width: 100%;
+  display: grid;
+  padding: var(--dl-space-space-threeunits);
+  grid-gap: var(--dl-space-space-unit);
+  max-width: var(--dl-size-size-maxwidth);
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.jameella-ux-researcher-sanderson {
+  text-decoration: none;
+}
+.jameella-ux-researcher-nhs {
+  text-decoration: none;
+}
+.jameella-ux-researcher-hive {
+  text-decoration: none;
+}
+.jameella-ux-researcher-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.jameella-ux-researcher-icon-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.jameella-ux-researcher-link3 {
+  display: contents;
+}
+.jameella-ux-researcher-icon1 {
+  fill: var(--dl-color-primary-main);
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+@media(max-width: 1600px) {
+  .jameella-ux-researcher-container1 {
+    background-color: #ffedff;
+  }
+  .jameella-ux-researcher-hero {
+    height: 612px;
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .jameella-ux-researcher-image1 {
+    box-shadow: -10px 10px 0px 0px rgba(89, 36, 144, 0.2);
+  }
+  .jameella-ux-researcher-text10 {
+    color: var(--dl-color-primary-main);
+    font-size: 5rem;
+    font-family: Pacifico;
+  }
+  .jameella-ux-researcher-text13 {
+    font-size: 3rem;
+    font-family: Poppins;
+  }
+  .jameella-ux-researcher-image2 {
+    box-shadow: -10px 10px 0px 0px rgba(89, 36, 144, 0.2);
+  }
+  .jameella-ux-researcher-link1 {
+    border-color: var(--dl-color-primary-main);
+    border-width: 1px;
+    background-color: var(--dl-color-primary-main);
+  }
+  .jameella-ux-researcher-link2 {
+    color: var(--dl-color-primary-main);
+    border-color: var(--dl-color-primary-main);
+  }
+  .jameella-ux-researcher-text15 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .jameella-ux-researcher-text16 {
+    font-style: normal;
+  }
+  .jameella-ux-researcher-text17 {
+    font-style: normal;
+  }
+  .jameella-ux-researcher-text18 {
+    font-style: normal;
+  }
+  .jameella-ux-researcher-text19 {
+    font-style: inherit;
+    font-weight: 400;
+  }
+  .jameella-ux-researcher-text20 {
+    font-style: normal;
+  }
+  .jameella-ux-researcher-text21 {
+    font-style: normal;
+  }
+  .jameella-ux-researcher-text22 {
+    font-style: normal;
+  }
+  .jameella-ux-researcher-text23 {
+    color: var(--dl-color-primary-main);
+    font-size: 3rem;
+    font-family: Poppins;
+  }
+  .jameella-ux-researcher-icon1 {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+    margin-right: 0px;
+  }
+}
+@media(max-width: 991px) {
+  .jameella-ux-researcher-hero {
+    height: 1027px;
+    padding: var(--dl-space-space-threeunits);
+    flex-direction: column;
+  }
+  .jameella-ux-researcher-image1 {
+    order: 2;
+    display: none;
+  }
+  .jameella-ux-researcher-container3 {
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .jameella-ux-researcher-text10 {
+    text-align: center;
+  }
+  .jameella-ux-researcher-text13 {
+    text-align: center;
+  }
+  .jameella-ux-researcher-image2 {
+    order: 2;
+    display: flex;
+  }
+  .jameella-ux-researcher-text14 {
+    text-align: center;
+    padding-left: var(--dl-space-space-fourunits);
+  }
+  .jameella-ux-researcher-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width: 767px) {
+  .jameella-ux-researcher-hero {
+    height: 1252px;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .jameella-ux-researcher-image1 {
+    width: 80%;
+  }
+  .jameella-ux-researcher-container3 {
+    height: 1201px;
+  }
+  .jameella-ux-researcher-image2 {
+    width: 80%;
+    box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.2);
+  }
+  .jameella-ux-researcher-gallery {
+    height: 901px;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .jameella-ux-researcher-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .jameella-ux-researcher-text24 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .jameella-ux-researcher-hero {
+    height: auto;
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .jameella-ux-researcher-container3 {
+    height: auto;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .jameella-ux-researcher-text10 {
+    font-size: 5rem;
+  }
+  .jameella-ux-researcher-text13 {
+    font-weight: 600;
+  }
+  .jameella-ux-researcher-image2 {
+    box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.2);
+  }
+  .jameella-ux-researcher-btn-group {
+    width: 80%;
+    margin-top: var(--dl-space-space-threeunits);
+    margin-bottom: var(--dl-space-space-twounits);
+    flex-direction: column;
+  }
+  .jameella-ux-researcher-link1 {
+    width: 80%;
+    text-align: center;
+    font-weight: 700;
+  }
+  .jameella-ux-researcher-link2 {
+    width: 80%;
+    margin-top: var(--dl-space-space-unit);
+    text-align: center;
+    font-weight: 700;
+    margin-left: 0px;
+  }
+  .jameella-ux-researcher-text14 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .jameella-ux-researcher-text23 {
+    font-size: 2rem;
+    padding-top: 2rem;
+  }
+  .jameella-ux-researcher-gallery {
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .jameella-ux-researcher-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .jameella-ux-researcher-text24 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .jameella-ux-researcher-icon-group {
+    padding: 2rem 0;
+    padding-left: 2rem 0;
+  }
+  .jameella-ux-researcher-icon1 {
+    fill: var(--dl-color-primary-main);
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+}
